@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+ <link rel="stylesheet" href="index.css">
+    <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src='https://kit.fontawesome.com/a076d05399.js'></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href='https://fonts.googleapis.com/css?family=Autour One' rel='stylesheet'>
+<link href='https://fonts.googleapis.com/css?family=Aclonica' rel='stylesheet'>
+<link href='https://fonts.googleapis.com/css?family=Arbutus' rel='stylesheet'>
+<link href='https://fonts.googleapis.com/css?family=Sofia' rel='stylesheet'>
+  <title></title>
+  </head>
+  <body>
+    <section class="new" >
+    <div class="navbar">
+              <a id="a" href="#"><i class="fa fa-gg" style='font-size:50px;'></i>RokTreat</a>
+          <a id="li" onclick="openForm()"href="#contact">SignUp</a>
+          <a id="li" onclick="openForm()" href="#home">Login</a>
+
+        </div>
+<div class="row">
+      <div class="col-sm-9 col-sm-1">
+  <div id="mySidenav" class="sidenav">
+<a href="about.html" id="about">About</a>
+<a href="blog.html" id="blog">Blog</a>
+<a href="contact.html" id="projects">Contact</a>
+<a href="#" id="contact">Booking</a>
+<a href="gallery.html" id="gallery">Gallery</a>
+</div>
+</div>
+<div class="col-sm-9 col-sm-7">
+  <div class="p">
+  <h1 id="one" data-aos="fade-up"> Experience Epic <br> Beauty</h1>
+  <p id="wel" data-aos="fade-up">Welcome To <span> <a href="#"><i class="fa fa-gg" style="font-size:36px;"></i>RokTreat</a>  </span> </p>
+  <br><br>
+  <p id="hh" data-aos="fade-up">Here are the best and amazing services provided at any locations and faciities, and for finding low-priced.</p>
+  <br><br> <br><br> <br><br>
+</div>
+</div>
+<div class="col-sm-9 col-sm-1">
+  <div class="form-popup" id="myForm">
+  <div class="fore" data-aos="fade-up">
+
+    <form id="f" action="form.html" method="post"><br><br><br>
+    <label id="aa" for="name"><i class="fa fa-user">UserName:</i></label><br>
+    <input id="name" type="text" name="name" placeholder="Username" required><br><br>
+    <label id="bb" for="name2"><i class="fa fa-sign-in">Password:</i></label><br>
+    <input id="name" type="password" name="name1" placeholder="Password" required><br><br><br>
+      <a href="#"> <input id="dd" type="submit" name="sub" value="Login"></a><br><br> <br><br>
+    </form>
+  </div> <br>
+  <button id="but" type="button" class="btn cancel" onclick="closeForm()">Close</button>
+
+  </div>
+</div>
+</div>
+</div>
+</section>
+
+<script>
+AOS.init({ duration:1500 });
+function openForm() {
+  document.getElementById("myForm").style.display = "block";
+}
+function closeForm() {
+  document.getElementById("myForm").style.display = "none";
+}
+</script>
+
+<section class="sec">
+
+<div class="row">
+  <div class="container">
+    <div class="col-sm-12 col-md-3">
+    <a href="#"> <h1 data-aos="flip-left" class="a1" id="res">RESTURANT</h1></a>
+  </div>
+  <div class="col-sm-12 col-md-3">
+    <a href="#">  <h1 data-aos="flip-right" class="a2" id="res">BANQUET</h1></a>
+</div>
+<div class="col-sm-12 col-md-3">
+  <a href="#">  <h1 data-aos="flip-left" class="a3" id="res">BAR & CLUB</h1></a>
+</div>
+<div class="col-sm-12 col-md-3">
+  <a href="#">  <h1 data-aos="flip-right" class="a4" id="res">SPECIAL ROOM</h1></a>
+</div>
+</div><br><br>
+</div>
+</section>
+<section class="mid" >
+  <div class="container" id="co">
+  <p id="ww" data-aos="fade-up">WHAT WE DO</p>
+  <h3 id="dd" data-aos="fade-up">Discover Our Services</h3>
+</div>
+<div class="row" id="mm" data-aos="fade-up">
+  <div class="container" id="coo">
+    <div class="col-sm-12 col-sm-4 li" id="ii">
+      <i class='fas fa-map-marked-alt' style='font-size:45px;'></i>
+      <h1>Travel Plan</h1><br>
+      <p>A travel plan is a package of actions designed by a workplace, school or other organisation to encourage safe. By reducing car travel, travel plans can improve health and wellbeing.</p>
+    </div>
+    <div class="col-sm-12 col-sm-4 li" id="ii">
+      <i class='fas fa-ice-cream' style='font-size:45px; '></i>
+      <h1>Catering Service</h1><br>
+      <p>A travel plan is a package of actions designed by a workplace, school or other organisation to encourage safe. By reducing car travel, travel plans can improve health and wellbeing.</p>
+    </div>
+    <div class="col-sm-12 col-sm-4 li" id="ii">
+      <i class='fas fa-couch' style='font-size:45px; '></i>
+      <h1>BedRooms</h1><br>
+      <p>A travel plan is a package of actions designed by a workplace, school or other organisation to encourage safe. By reducing car travel, travel plans can improve health and wellbeing.</p>
+    </div>
+  </div>
+</div><br><br>
+<div class="row" id="mm" data-aos="fade-up">
+  <div class="container" id="coo">
+    <div class="col-sm-12 col-sm-4 li a" id="ii">
+      <i class='fas fa-tshirt' style='font-size:45px; '></i>
+      <h1>Laundry</h1><br>
+      <p>A travel plan is a package of actions designed by a workplace, school or other organisation to encourage safe. By reducing car travel, travel plans can improve health and wellbeing.</p>
+    </div>
+    <div class="col-sm-12 col-sm-4 li " id="ii">
+      <i class='fas fa-car' style='font-size:45px; '></i>
+      <h1>Hire Driver</h1><br>
+      <p>A travel plan is a package of actions designed by a workplace, school or other organisation to encourage safe. By reducing car travel, travel plans can improve health and wellbeing.</p>
+    </div>
+    <div class="col-sm-12 col-sm-4 li b" id="ii">
+      <i class='fas fa-cocktail' style='font-size:45px; '></i>
+      <h1>Bar & Drink</h1><br>
+      <p>A travel plan is a package of actions designed by a workplace, school or other organisation to encourage safe. By reducing car travel, travel plans can improve health and wellbeing.</p>
+    </div>
+  </div>
+</div>
+</section>
+<section class="tag">
+<a href="#"><h1 id="restro" data-aos="zoom-out-right"><i class='fas fa-utensils' ></i> Our <span>RockTreat</span>  Resturant </h1></a>
+<a href="#"><h1 id="club" data-aos="zoom-out-left">Bar And Club Faciities <i class='fas fa-cocktail' ></i></h1></a>
+<a href="#"><h1 id="restro" data-aos="zoom-out-right"><i class='fas fa-door-open' ></i> Luxury Room Available</h1></a>
+<a href="#"><h1 id="club" data-aos="zoom-out-left">Banquet & Marriage Halls <i class='fas fa-igloo' ></i> </h1></a> <br><br>
+</section>
+
+<section class="visa" >
+<div class="container">
+  <h1 id="nn" data-aos="fade-up">A New Vision of Luxury Hotel</h1><br><br><br><br>
+</div>
+<div class="row">
+    <div class="col-sm-12 col-sm-3">
+      <div class="flip-box" data-aos="fade-right">
+        <div class="flip-box-inner">
+          <div class="flip-box-front"><br><br>
+            <i class='fas fa-bed' style='font-size:56px; color:#820b03'></i><br><br>
+            <h2 id="ah">Cozy Room</h2>
+          </div>
+          <div class="flip-box-back">
+            <br>  <h3 style="font-family:sarif;"><i class="fa fa-quote-left" style="font-size:36px"></i> When you get into a hotel room, you lock  door, and you know there is secrecy, there is a luxury. <i class="fa fa-quote-right" style="font-size:36px"></i></h3>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-12 col-sm-3">
+      <div class="flip-box" data-aos="fade-right">
+        <div class="flip-box-inner">
+          <div class="flip-box-front"><br><br>
+            <i class='fas fa-concierge-bell' style='font-size:56px; color:#820b03'></i><br><br>
+            <h2 id="ah">Friendly Service</h2>
+          </div>
+          <div class="flip-box-back">
+            <br>  <h3 style="font-family:sarif;"><i class="fa fa-quote-left" style="font-size:36px"></i> To give without any reason of reward, or any notice, has a special quality of its own. <i class="fa fa-quote-right" style="font-size:36px"></i></h3>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-12 col-sm-3">
+      <div class="flip-box" data-aos="fade-left">
+        <div class="flip-box-inner">
+          <div class="flip-box-front"><br><br>
+            <i class='fas fa-mug-hot' style='font-size:56px; color:#820b03'></i><br><br>
+            <h2 id="ah">Get BreakFast</h2>
+          </div>
+          <div class="flip-box-back">
+            <br>  <h3 style="font-family:sarif;"><i class="fa fa-quote-left" style="font-size:36px"></i> What nicer things you can you do for,  somebody than make them for very best breakfast. <i class="fa fa-quote-right" style="font-size:36px"></i></h3>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-12 col-sm-3">
+      <div class="flip-box" data-aos="fade-left">
+        <div class="flip-box-inner">
+          <div class="flip-box-front"><br><br>
+            <i class='fas fa-car' style='font-size:56px; color:#820b03'></i><br><br>
+            <h2 id="ah">Transfer Service</h2>
+          </div>
+          <div class="flip-box-back">
+            <br>  <h3 style="font-family:sarif;"><i class="fa fa-quote-left" style="font-size:36px"></i> You can't get understand a city without using its privately  transportation system  for public. <i class="fa fa-quote-right" style="font-size:36px"></i></h3>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div><br><br><br><br><br><br>
+</section>
+<section class="testimonials" id="testimonial" data-aos="fade-up">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12 text-center">
+        <h1 data-aos="zoom-in-up">Happy Clients & Feedbacks</h1><br><br>
+        <div class="sub-heading text-center">
+          <br><br><br>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-12">
+        <div id="carousel-testimonials" class="carousel slide" data-ride="carousel">
+          <ol class="carousel-indicators">
+<li data-target="#carousel-testimonials" data-slide-to="0" class="active"></li>
+<li data-target="#carousel-testimonials" data-slide-to="1"></li>
+<li data-target="#carousel-testimonials" data-slide-to="2"></li>
+  <li data-target="#carousel-testimonials" data-slide-to="3"></li>
+
+</ol>
+<div class="carousel-inner">
+<div class="item active text-center">
+ <img data-aos="zoom-out-up" src="images/person_1.jpg"  class="center-block"><br><br>
+ <p><span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span></p>
+<p style="color:gray;">The first in a series examining innovative  this introductory article e challenges to persistence and completion, <br> and the demographic trends likely to further compound the issues in the coming years</p>
+ <h2 style="color:black;">AKASH CHOPRA</h2>
+ <h4 style="color:gray;">GUESTS</h4>
+</div>
+
+<div class="item text-center" >
+ <img  src="images/person_2.jpg"  class="center-block"> <br><br>
+ <p><span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span></p>
+<p style="color:gray;">The first in a series examining innovative  this introductory article e challenges to persistence and completion, <br> and the demographic trends likely to further compound the issues in the coming years</p>
+
+ <h2 style="color:black;">SAMRAT SINGH</h2>
+ <h4 style="color:gray;">GUESTS</h4>
+</div>
+<div class="item text-center">
+ <img src="images/person_3.jpg"  class="center-block"><br><br>
+ <p><span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span></p>
+<p style="color:gray;">The first in a series examining innovative  this introductory article e challenges to persistence and completion, <br> and the demographic trends likely to further compound the issues in the coming years</p>
+
+ <h2 style="color:black;">KURNAL MEHTA</h2>
+ <h4 style="color:gray;">GUESTS</h4>
+</div>
+<div class="item text-center">
+ <img src="images/person_4.jpg" class="center-block"><br><br>
+ <p><span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span></p>
+<p style="color:gray;">The first in a series examining innovative  this introductory article e challenges to persistence and completion, <br> and the demographic trends likely to further compound the issues in the coming years</p>
+
+ <h2 style="color:black;">AJEET PATHAK</h2>
+ <h4 style="color:lightgray;">GUESTS</h4>
+</div>
+      </div>
+    </div>
+</div>
+  </div>
+</section>
+<script type="text/javascript">
+$('#carousel-testimonials').carousel({
+  interval: 2000
+})
+</script><br><br><br>
+<section class="set" data-aos="fade-up">
+  <div class="container cc">
+  <h1>Ready To Get Started</h1>
+  <p>It’s safe to book online with us! Get your dream stay & everythings in clicks or drop us a line with your questions.</p><br><br><br>
+  <a id="ab" href="#">Book Now</a>
+  <a id="aa" href="contact.html">Contact us</a>
+</div>
+
+</section>
+<section class="last">
+  <div class="row">
+    <div class="col-sm-12 col-sm-3">
+      <h1 style="margin-left:50px;">RokTreat</h1><br><br>
+      <p style="margin-left:50px;" id="dd">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+<br><br><br>
+<a id="abc" href="#" class="fa fa-instagram"></a>
+<a id="abc" href="#" class="fa fa-linkedin"></a>
+<a id="abc" href="#" class="fa fa-google"></a>
+    </div>
+    <div class="col-sm-12 col-sm-3">
+      <h1 style="margin-left:50px;">Useful Links</h1><br><br>
+      <a style="margin-left:50px;" href="#">Blogs</a><br><br>
+      <a style="margin-left:50px;" href="#">Rooms</a><br><br>
+      <a style="margin-left:50px;" href="#">Amenities</a><br><br>
+      <a style="margin-left:50px;" href="#">Gift Card</a><br><br>
+
+    </div>
+    <div  class="col-sm-12 col-sm-3">
+      <h1 style="margin-left:50px;">Privacy</h1><br><br>
+      <a style="margin-left:50px;" href="#">Career</a><br><br>
+      <a style="margin-left:50px;" href="about.html">About Us</a><br><br>
+      <a style="margin-left:50px;" href="contact.html">Contact Us</a><br><br>
+      <a style="margin-left:50px;" href="#">Services</a><br><br>
+
+    </div>
+    <div class="col-sm-12 col-sm-3">
+      <h1>Have a Question?</h1><br><br>
+      <a ><i class="fa fa-map-marker" style="font-size:36px"></i> 203 Fake St. Mountain View,<br> San Francisco, California, USA</a>
+    <br><br>  <a href="#"><i class="fa fa-phone" style="font-size:36px">  </i> +94275162</a>
+    <br><br>  <a href="#"><i class="fa fa-envelope" style="font-size:36px">  </i> kygeurcb@gmail.com</a>
+    </div>
+  </div>
+  <h4>Copyright ©2020 All rights reserved | This template is made with  by Colorlib</h4>
+</section>
+  </body>
+</html>

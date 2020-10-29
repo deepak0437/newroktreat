@@ -1,0 +1,357 @@
+#mySidenav a {
+  position: absolute;
+  left: -80px;
+  transition: 0.3s;
+  padding: 15px;
+  margin-top: 40px;
+  width: 160px;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bolder;
+  color: white;
+  border-radius: 0 10px 10px 0;
+}
+#mySidenav a:hover {
+   left: 10px;
+}
+#about {
+  top: -50px;
+  background-color: orange;
+}
+#blog {
+  top: 30px;
+  background-color: #2196F3;
+}
+#projects {
+  top: 110px;
+  background-color: #f44336;
+}
+#contact {
+  top: 190px;
+  background-color: #555;
+}
+#gallery{
+  top: 270px;
+  background-color:green;
+}
+.navbar {
+  position: fixed;
+  color: black;
+}
+.navbar #li {
+  float: right;
+  display: block;
+  color: white;
+  text-align: center;
+  margin: 49px 20px;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bolder;
+  letter-spacing: 1px;
+}
+.new #li:hover{
+  text-decoration: none;
+   transition: 0.8s;
+   color: lightgray;
+}
+.navbar #a{
+  font-size: 50px;
+  color:brown;
+  float: left;
+  margin-top: 30px;
+  margin-left: 150px;
+  font-family: Arbutus;
+  text-shadow: 2px 2px black;
+}
+.navbar #a:hover{
+  text-decoration: none;
+
+}
+.new #c{
+  background-color:pink;
+  padding-right: 50px;
+}
+.new #one{
+  font-size: 80px;
+  color: white;
+  text-decoration: none;
+  text-shadow: 4px 4px darkred;
+  font-weight: bold;
+  margin-top: 120px;
+  margin-left: 350px;
+  padding-bottom: 50px;
+  font-family:Aclonica;
+}
+
+.new{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.0),rgba(0, 0, 0, 0.0)),url("images/abt2.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 120%;
+  background-attachment: fixed;
+}
+.new #l{
+  font-size:50px;
+  margin-left: 115px;
+  margin-top: 90px;
+  color: white;
+  font-weight: bolder;
+  font-family: serif;
+}
+.new #aa .fa{
+  font-size: 30px;
+  font-weight: bold;
+  color: white;
+  margin-left: 50px;
+  color:#f7e700;
+
+}
+.new #bb .fa{
+  font-size: 30px;
+  font-weight: bold;
+  color: white;
+  margin-left: 50px;
+ color:#f7e700;
+}
+.new #name{
+  margin-left: 50px;
+  font-size:17px;
+  border-radius: 5px;
+  border: 3px solid black;
+  color: red;
+  padding: 3px;
+  background-color: lightgray;
+}
+.new #name:hover{
+  background-color:skyblue  ;
+}
+.new .for{
+  margin-left: 50px;
+}
+.new #dd{
+  font-size: 25px;
+  font-weight: bolder;
+  font-family: serif;
+  margin-left: 125px;
+  border: 2px solid black;
+  box-shadow: 2px 2px pink;
+  padding: 2px 4px;
+  border-radius: 6px;
+}
+.new #dd:hover{
+  box-shadow: 2px 2px white;
+  transition: 0.5s ;
+}
+.new .form-popup{
+  display: none;
+}
+.new .form-popup #but{
+  margin-left: 210px;
+  margin-top: 1px;
+}
+.new .fore{
+  border: 2px solid white;
+  border-radius: 10px;
+  width:330px;
+  margin-left: 70px;
+  margin-top: 0px;
+}
+.new #h2{
+ font-size:30px;
+ color: white;
+ margin-left:80px;
+}
+.lux{
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: #faf4c3;
+  background-attachment: fixed;
+}
+.lux .co{
+  margin-top: 50px;
+}
+.lux h3{
+  font-size: 18px;
+  margin-left: 105px;
+  color: #f0c884;
+  letter-spacing: 2px;
+}
+.lux h1{
+  font-size: 40px;
+  font-weight: bolder;
+  margin-left: 100px;
+  font-family: serif;
+}
+.lux h1 span{
+    font-size: 40px;
+    letter-spacing: 1px;
+    color:brown;
+    font-family: Arbutus;
+    text-shadow: 2px 2px black;
+}
+.lux p{
+  margin-left: 100px;
+  font-family: monospace;
+  font-size: 18px;
+  color: gray;
+  margin-top: 40px;
+}
+.lux a{
+  margin-left: 105px;
+  font-size: 18px;
+  color: #5e3c8f;
+  font-weight: bolder;
+  letter-spacing: 2px;
+  text-decoration: underline;
+}
+.lux a:hover{
+  text-decoration: underline;
+}
+.lux h4 a:hover{
+ text-decoration: none;
+}
+.lux h4 a{
+  background-color: #5e3c8f;
+  color: white;
+  font-weight: lighter;
+  text-decoration: none;
+  padding: 15px;
+}
+.lux .coo img{
+  border-radius: 0px;
+  width: 80%;
+  margin-top:80px;
+  margin-left: 50px;
+}
+.part{
+  padding-top: 80px;
+  background-color: #faf4c3
+}
+.part ,img ,h2{
+text-align: center;
+margin-left: 10px;
+
+}
+.part .ll{
+margin-left: 170px;
+padding: 60px 0px;
+background-color: white;
+}
+.part h1{
+  font-size: 90px;
+  font-weight: bolder;
+  font-family: serif;
+}
+.part h2{
+  font-size:30px;
+  font-weight: bold;
+  font-family: serif;
+}
+.part p{
+  font-size: 18px;
+  letter-spacing: 1px;
+  color:gray;
+}
+.part a{
+  font-size: 15px;
+  letter-spacing:1px;
+  background-color: #e06cbf;
+  border-radius: 5px;
+  padding: 15px;
+  color: white;
+}
+.part a:hover{
+  background-color: white;
+  color:#e06cbf;
+  text-decoration: none;
+  border: 2px solid #e06cbf;
+  border-radius: 5px;
+ transition: 0.3s ease-in;
+}
+.dis{
+  padding-top: 80px;
+  padding-bottom: 60px;
+}
+.dis h1{
+  font-size: 50px;
+  font-weight: bolder;
+  text-align: center;
+}
+.dis .tw{
+  margin-top: 80px;
+  margin-left: 120px;
+}
+.dis .tw i{
+  padding-top: 10px;
+}
+.dis .tw span{
+  color: gray;
+}
+.dis .ww{
+  text-align: center;
+  margin-top: 190px;
+  margin-left: 150px;
+}
+.dis #a{
+  margin-left: 50px;
+}
+.dis .and{
+  padding: 20px;
+  letter-spacing: 1px;
+  background-color: #14faeb;
+  color:black;
+  border-radius: 10px;
+}
+.dis .and:hover{
+  border: 1px solid #14faeb;
+  color: gray;
+  background-color: white;
+  text-decoration: none;
+  transition: 0.3s ease-in;
+
+}
+.last{
+  padding-top: 50px;
+  background-color: black;
+  margin-top: 200px;
+  padding-bottom:100px;
+  margin-bottom: -60px;
+}
+.last h1{
+  font-size: 30px;
+  font-weight: bolder;
+  color: white;
+}
+.last #dd{
+  letter-spacing: 1px;
+  font-weight: 700;
+  font-size: 17px;
+  color: lightgray;
+}
+.last a{
+  font-size: 20px;
+  color:lightgray;
+}
+.last a:hover{
+  color:blue;
+  transition: 0.4s ease-in;
+  text-decoration: none;
+  color:white;
+}
+.last #abc{
+  color: black;
+  font-size: 40px;
+  width:60px;
+  height: 60px;
+  padding-top:8px;
+  background-color: lightgray;
+  text-align: center;
+  border: 2px solid white;
+  border-radius: 50%;
+  margin-left: 30px;
+}
+.last h4{
+  text-align: center;
+  margin-top: 50px;
+  color:gray;
+  margin-bottom:-50px;
+}

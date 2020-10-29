@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+ <link rel="stylesheet" href="about.css">
+    <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src='https://kit.fontawesome.com/a076d05399.js'></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href='https://fonts.googleapis.com/css?family=Autour One' rel='stylesheet'>
+<link href='https://fonts.googleapis.com/css?family=Aclonica' rel='stylesheet'>
+<link href='https://fonts.googleapis.com/css?family=Arbutus' rel='stylesheet'>
+<link href='https://fonts.googleapis.com/css?family=Sofia' rel='stylesheet'>
+
+    <title></title>
+  </head>
+  <body>
+    <section class="new" >
+    <div class="navbar">
+              <a id="a" href="index.html"><i class="fa fa-gg" style='font-size:50px;'></i>RokTreat</a>
+          <a id="li" onclick="openForm()"href="#contact">SignUp</a>
+          <a id="li" onclick="openForm()" href="#home">Login</a>
+
+        </div>
+  <div class="row">
+      <div class="col-sm-9 col-sm-1">
+  <div id="mySidenav" class="sidenav">
+  <a href="index.html" id="about">Home</a>
+  <a href="blog.html" id="blog">Blog</a>
+  <a href="contact.html" id="projects">Contact</a>
+  <a href="#" id="contact">Booking</a>
+  <a href="gallery.html" id="gallery">Gallery</a>
+  </div>
+  </div>
+  <div class="col-sm-9 col-sm-7">
+  <div class="p">
+  <h1 id="one" data-aos="fade-up"> About Us</h1>
+  <br><br>
+  <br><br> <br><br> <br><br>
+  </div>
+  </div>
+  <div class="col-sm-9 col-sm-1">
+  <div class="form-popup" id="myForm">
+  <div class="fore" data-aos="fade-up">
+
+    <form id="f" action="form.html" method="post"><br><br><br>
+    <label id="aa" for="name"><i class="fa fa-user">UserName:</i></label><br>
+    <input id="name" type="text" name="name" placeholder="Username" required><br><br>
+    <label id="bb" for="name2"><i class="fa fa-sign-in">Password:</i></label><br>
+    <input id="name" type="password" name="name1" placeholder="Password" required><br><br><br>
+      <a href="#"> <input id="dd" type="submit" name="sub" value="Login"></a><br><br> <br><br>
+    </form>
+  </div> <br>
+  <button id="but" type="button" class="btn cancel" onclick="closeForm()">Close</button>
+
+  </div>
+  </div>
+  </div>
+  </div>
+  </section>
+  <script>
+  AOS.init({ duration:1500 });
+  function openForm() {
+    document.getElementById("myForm").style.display = "block";
+  }
+  function closeForm() {
+    document.getElementById("myForm").style.display = "none";
+  }
+  </script>
+  <section class="lux">
+    <div class="row">
+      <div class="col-sm-12 col-sm-6 co" data-aos="fade-up">
+        <h3>EVERYTHING LUXURY</h3>
+        <h1>About The <i class="fa fa-gg" style='font-size:50px;color:brown;font-weight:bolder;'></i><span>RokTreat</span> </h1>
+        <p>Praesent fermentum ligula in dui imperdiet, <br> vel tempus nulla ultricies. Phasellus at commodo <br> ligula. Nullam molestie volutpat sapien, <br> a dignissim tortor laoreet quis. Class aptent <br> taciti sociosqu ad litora torquent per conubia nostra, <br> per inceptos himenaeos.</p>
+    <br> <a href="#">View Rooms</a> <br><br><br>
+     <h4>  <a href="#">Book Your Stay</a> </h4>
+      </div>
+      <div class="col-sm-12 col-sm-6 coo" data-aos="fade-up">
+        <img src="images/about.jpg" alt="">
+      </div>
+    </div>
+  </section>
+  <section class="part">
+    <h1 data-aos="fade-up">We're Most Recommended Hotel</h1><br><br><br><br><br><br>
+ <div class="row">
+          <div class="col-sm-12 col-sm-4 ll" data-aos="fade-right">
+       <img src="images/services-1.jpg" style="width:70%;"><br><br>
+       <h2>Accomodation Services</h2>
+       <p>Even the all-powerful Pointing <br> has no control about the blind texts <br> it is an almost unorthographic.</p>
+    <br><br>   <a href="#">READ MORE</a>
+     </div>
+
+     <div class="col-sm-12 col-sm-4 ll" data-aos="fade-left">
+       <img src="images/services-3.jpg" style="width:70%;"><br><br>
+       <h2>Great Experience</h2>
+       <p>Even the all-powerful Pointing <br> has no control about the blind texts <br> it is an almost unorthographic.</p>
+    <br><br>   <a href="#">READ MORE</a>
+   </div>
+ </div> <br><br><br><br><br><br>
+  </section>
+  <section class="dis">
+    <div class="container">
+  <h1 data-aos="fade-up">Discover Our Work</h1>
+    </div>
+  <div class="row ">
+  <div class="col-sm-12 col-sm-4 tw" data-aos="fade-up">
+    <i class="fa fa-link" style="font-size:28px;color:orange"> <span> 20% Off On Accommodation.</span></i><br>
+    <i class="fa fa-link" style="font-size:28px;color:orange"><span>  Complimentary Daily Breakfast.</span></i><br>
+    <i class="fa fa-link" style="font-size:28px;color:orange"><span>  3 Pcs Laundry Per Day.</span></i><br>
+    <i class="fa fa-link" style="font-size:28px;color:orange"><span> Bar & Club.</span></i><br>
+    <i class="fa fa-link" style="font-size:28px;color:orange"><span>  Free Wifi.</span></i><br>
+    <i class="fa fa-link" style="font-size:28px;color:orange"><span>  Discount 20% On F&B.</span></i><br>
+
+  </div>
+  <div class="col-sm-12 col-sm-4 ww">
+ <a class="and" id="" href="#" data-aos="fade-right">VIEW GALLERY</a>
+ <a class="and" id="a" href="#" data-aos="fade-right">CONTACT US</a>
+  </div>
+  </div>
+  <section class="last">
+    <div class="row">
+      <div class="col-sm-12 col-sm-3">
+        <h1 style="margin-left:50px;">RokTreat</h1><br><br>
+        <p style="margin-left:50px;" id="dd">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+  <br><br><br>
+  <a id="abc" href="#" class="fa fa-instagram"></a>
+  <a id="abc" href="#" class="fa fa-linkedin"></a>
+  <a id="abc" href="#" class="fa fa-google"></a>
+      </div>
+      <div class="col-sm-12 col-sm-3">
+        <h1 style="margin-left:50px;">Useful Links</h1><br><br>
+        <a style="margin-left:50px;" href="#">Blogs</a><br><br>
+        <a style="margin-left:50px;" href="#">Rooms</a><br><br>
+        <a style="margin-left:50px;" href="#">Amenities</a><br><br>
+        <a style="margin-left:50px;" href="#">Gift Card</a><br><br>
+
+      </div>
+      <div  class="col-sm-12 col-sm-3">
+        <h1 style="margin-left:50px;">Privacy</h1><br><br>
+        <a style="margin-left:50px;" href="#">Career</a><br><br>
+        <a style="margin-left:50px;" href="about.html">About Us</a><br><br>
+        <a style="margin-left:50px;" href="contact.html">Contact Us</a><br><br>
+        <a style="margin-left:50px;" href="#">Services</a><br><br>
+
+      </div>
+      <div class="col-sm-12 col-sm-3">
+        <h1>Have a Question?</h1><br><br>
+        <a ><i class="fa fa-map-marker" style="font-size:36px"></i> 203 Fake St. Mountain View,<br> San Francisco, California, USA</a>
+      <br><br>  <a href="#"><i class="fa fa-phone" style="font-size:36px">  </i> +94275162</a>
+      <br><br>  <a href="#"><i class="fa fa-envelope" style="font-size:36px">  </i> kygeurcb@gmail.com</a>
+      </div>
+    </div>
+    <h4>Copyright ©2020 All rights reserved | This template is made with  by Colorlib</h4>
+  </section>
+
+    </div>
+  </section>
+  </body>
+</html>

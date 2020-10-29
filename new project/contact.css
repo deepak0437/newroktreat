@@ -1,0 +1,368 @@
+#mySidenav a {
+  position: absolute;
+  left: -80px;
+  transition: 0.3s;
+  padding: 15px;
+  margin-top: 40px;
+  width: 160px;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bolder;
+  color: white;
+  border-radius: 0 10px 10px 0;
+}
+#mySidenav a:hover {
+   left: 10px;
+}
+#about {
+  top: -50px;
+  background-color: orange;
+}
+#blog {
+  top: 30px;
+  background-color: #2196F3;
+}
+#projects {
+  top: 110px;
+  background-color: #f44336;
+}
+#contact {
+  top: 190px;
+  background-color: #555;
+}
+#gallery{
+  top: 270px;
+  background-color:green;
+}
+.navbar {
+  position: fixed;
+  color: black;
+}
+.navbar #li {
+  float: right;
+  display: block;
+  color: white;
+  text-align: center;
+  margin: 49px 20px;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bolder;
+  letter-spacing: 1px;
+}
+.new #li:hover{
+  text-decoration: none;
+   transition: 0.8s;
+   color: lightgray;
+}
+.navbar #a{
+  font-size: 50px;
+  color:brown;
+  float: left;
+  margin-top: 30px;
+  margin-left: 150px;
+  font-family: Arbutus;
+  text-shadow: 2px 2px black;
+}
+.navbar #a:hover{
+  text-decoration: none;
+
+}
+.new #c{
+  background-color:pink;
+  padding-right: 50px;
+}
+.new #one{
+  font-size: 80px;
+  color: white;
+  text-decoration: none;
+  text-shadow: 4px 4px darkred;
+  font-weight: bold;
+  margin-top: 120px;
+  margin-left: 350px;
+  padding-bottom: 50px;
+  font-family:Aclonica;
+}
+
+.new{
+  background-image: linear-gradient(rgba(0, 0, 0, 0),rgba(0, 0, 0,0)),url("images/hero.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-attachment: fixed;
+}
+.new #l{
+  font-size:50px;
+  margin-left: 115px;
+  margin-top: 90px;
+  color: white;
+  font-weight: bolder;
+  font-family: serif;
+}
+.new #aa .fa{
+  font-size: 30px;
+  font-weight: bold;
+  color: white;
+  margin-left: 50px;
+  color:#f7e700;
+
+}
+.new #bb .fa{
+  font-size: 30px;
+  font-weight: bold;
+  color: white;
+  margin-left: 50px;
+ color:#f7e700;
+}
+.new #name{
+  margin-left: 50px;
+  font-size:17px;
+  border-radius: 5px;
+  border: 3px solid black;
+  color: red;
+  padding: 3px;
+  background-color: lightgray;
+}
+.new #name:hover{
+  background-color:skyblue  ;
+}
+.new .for{
+  margin-left: 50px;
+}
+.new #dd{
+  font-size: 25px;
+  font-weight: bolder;
+  font-family: serif;
+  margin-left: 125px;
+  border: 2px solid black;
+  box-shadow: 2px 2px pink;
+  padding: 2px 4px;
+  border-radius: 6px;
+}
+.new #dd:hover{
+  box-shadow: 2px 2px white;
+  transition: 0.5s ;
+}
+.new .form-popup{
+  display: none;
+}
+.new .form-popup #but{
+  margin-left: 210px;
+  margin-top: 1px;
+}
+.new .fore{
+  border: 2px solid white;
+  border-radius: 10px;
+  width:330px;
+  margin-left: 70px;
+  margin-top: 0px;
+}
+.new #h2{
+ font-size:30px;
+ color: white;
+ margin-left:80px;
+}
+.top{
+  padding-top: 100px;
+  padding-bottom: 60px;
+  background-color: #faf4c3;
+  background-attachment: fixed;
+
+}
+.top #p{
+  letter-spacing: 1px;
+  color: #f0c884;
+  font-size: 16px;
+  margin-left: 105px;
+}
+.top h1{
+  font-size: 45px;
+  font-weight: bolder;
+  margin-left: 100px;
+  font-family: serif;
+
+}
+.top p{
+  margin-left: 100px;
+  font-family: monospace;
+  font-size: 18px;
+  color: gray;
+  margin-top: 40px;
+}
+.top #start{
+  margin-left: 180px;
+  font-size: 15px;
+  letter-spacing: 2px;
+  background-color:  #e06cbf;
+  padding: 15px;
+  color: white;
+  border-radius: 7px;
+}
+.top #start:hover{
+  text-decoration: none;
+  color: #e06cbf;
+  background-color: white;
+  border: 1px solid #e06cbf;
+  transition: 0.3s ease-in;
+}
+.top .ss{
+  margin-left: 80px;
+}
+.top .nn{
+  margin-left: 100px;
+}
+.top #name{
+  width: 40%;
+  padding: 15px 10px;
+  border: 0px;
+  background-color: lightgray;
+  color: black;
+}
+.top #na{
+  margin-left: 100px;
+  width: 81.4%;
+  padding: 15px 10px;
+  border: 0px;
+  background-color: lightgray;
+  color: black;
+}
+.top .con{
+  margin-left: 100px;
+  width: 81.4%;
+  padding: 25px 10px;
+  border: 0px;
+  background-color: lightgray;
+  color: black;
+}
+.top #dd{
+  margin-left: 100px;
+  padding: 10px 20px;
+  color: white;
+  border: 0px;
+  background-color: #365187;
+}
+.top #dd:hover{
+  background-color: #395ca3;
+}
+.slid{
+  padding-top: 170px;
+  text-align: center;
+  padding-bottom: 150px;
+  color: white;
+  background-size: 100% 100%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.0),rgba(0, 0, 0, 0.0)),url("images/hero.jpg");
+
+}
+.slid h1{
+  font-size: 100px;
+  font-weight: bolder;
+  font-family: serif;
+  margin-top: -50px;
+}
+.slid p{
+  font-size: 20px;
+  color: ;
+}
+.slid .ccc{
+  margin-top: -70px;
+  margin-right: -40px;
+}
+.slid .fa {
+  padding: 15px;
+  font-size: 50px;
+  width: 90px;
+  color: white;
+  background-color: gray;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 42px;
+  border-radius: 50%;
+}
+
+.slid .fa:hover {
+    opacity: 0.9;
+}
+.sec{
+  margin-top: 50px;
+  margin-bottom: 0px;
+}
+.sec h1{
+  font-size:50px;
+  font-weight: bolder;
+  font-family: serif;
+  margin-left: 130px;
+}
+.sec p{
+  margin-left: 135px;
+  font-family: monospace;
+  font-size: 18px;
+  color: gray;
+  margin-top: 20px;
+}
+.sec .con{
+  margin-left: 100px;
+  margin-top: 70px;
+  width: 90%;
+  padding: 5px 20px;
+  font-size: 16px;
+  border-radius: 10px;
+  border: 1px solid blue;
+  color: black;
+  font-weight: bolder;
+}
+.sec #dd{
+  margin-left: 250px;
+  font-size: 20px;
+  border-radius: 10px;
+  padding: 10px 20px;
+  color: white;
+  border: 0px;
+  background-color: #365187;
+}
+.sec #dd:hover{
+  background-color: #395ca3;
+}
+.last{
+  padding-top: 50px;
+  background-color: black;
+  margin-top: 100px;
+  padding-bottom:100px;
+  margin-bottom: -60px;
+}
+.last h1{
+  font-size: 30px;
+  font-weight: bolder;
+  color: white;
+}
+.last #dd{
+  letter-spacing: 1px;
+  font-weight: 700;
+  font-size: 17px;
+  color: lightgray;
+}
+.last a{
+  font-size: 20px;
+  color:lightgray;
+}
+.last a:hover{
+  color:blue;
+  transition: 0.4s ease-in;
+  text-decoration: none;
+  color:white;
+}
+.last #abc{
+  color: black;
+  font-size: 40px;
+  width:60px;
+  height: 60px;
+  padding-top:8px;
+  background-color: lightgray;
+  text-align: center;
+  border: 2px solid white;
+  border-radius: 50%;
+  margin-left: 30px;
+}
+.last h4{
+  text-align: center;
+  margin-top: 50px;
+  color:gray;
+  margin-bottom:-50px;
+}

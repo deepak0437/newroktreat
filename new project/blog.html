@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+ <link rel="stylesheet" href="blog.css">
+    <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src='https://kit.fontawesome.com/a076d05399.js'></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href='https://fonts.googleapis.com/css?family=Autour One' rel='stylesheet'>
+<link href='https://fonts.googleapis.com/css?family=Aclonica' rel='stylesheet'>
+<link href='https://fonts.googleapis.com/css?family=Arbutus' rel='stylesheet'>
+<link href='https://fonts.googleapis.com/css?family=Sofia' rel='stylesheet'>
+
+    <title></title>
+  </head>
+  <body>
+    <section class="new" >
+    <div class="navbar">
+              <a id="a" href="index.html"><i class="fa fa-gg" style='font-size:50px;'></i>RokTreat</a>
+          <a id="li" onclick="openForm()"href="#contact">SignUp</a>
+          <a id="li" onclick="openForm()" href="#home">Login</a>
+
+        </div>
+  <div class="row">
+      <div class="col-sm-9 col-sm-1">
+  <div id="mySidenav" class="sidenav">
+  <a href="index.html" id="about">Home</a>
+  <a href="#" id="blog">About</a>
+  <a href="about.html" id="projects">About</a>
+  <a href="#" id="contact">Booking</a>
+  <a href="gallery.html" id="gallery">Gallery</a>
+  </div>
+  </div>
+  <div class="col-sm-9 col-sm-7">
+  <div class="p">
+  <h1 id="one" data-aos="fade-up"> Our Blogs</h1>
+  <br><br>
+  <br><br> <br><br> <br><br>
+  </div>
+  </div>
+  <div class="col-sm-9 col-sm-1">
+  <div class="form-popup" id="myForm">
+  <div class="fore" data-aos="fade-up">
+
+    <form id="f" action="form.html" method="post"><br><br><br>
+    <label id="aa" for="name"><i class="fa fa-user">UserName:</i></label><br>
+    <input id="name" type="text" name="name" placeholder="Username" required><br><br>
+    <label id="bb" for="name2"><i class="fa fa-sign-in">Password:</i></label><br>
+    <input id="name" type="password" name="name1" placeholder="Password" required><br><br><br>
+      <a href="#"> <input id="dd" type="submit" name="sub" value="Login"></a><br><br> <br><br>
+    </form>
+  </div> <br>
+  <button id="but" type="button" class="btn cancel" onclick="closeForm()">Close</button>
+
+  </div>
+  </div>
+  </div>
+  </div>
+  </section>
+  <script>
+  AOS.init({ duration:1500 });
+  function openForm() {
+    document.getElementById("myForm").style.display = "block";
+  }
+  function closeForm() {
+    document.getElementById("myForm").style.display = "none";
+  }
+  </script>
+  <section class="stat">
+    <div class="row" data-aos="fade-up">
+      <div class="col-sm-12 col-sm-3 ll" id="ll">
+        <div class="hh">
+        <a id="one" href="#">
+        <h1 id="live">Living life</h1>
+        <p id="enj">Enjoy Your Social Life .</p>
+</a>
+</div>
+
+      </div>
+      <div class="col-sm-12 col-sm-3 ll" id="lm">
+        <div class="hh">
+        <a id="one" href="#">
+        <h1 id="live">Marriage</h1>
+        <p id="enj">Be A Part Of New Life.</p>
+
+</a>
+</div>
+
+      </div>
+      <div class="col-sm-12 col-sm-3 ll" id="ln">
+        <div class="hh">
+        <a id="one" href="#">
+        <h1 id="live">Foods</h1>
+        <p id="enj">Let The Food Be Finish.</p>
+
+</a>
+</div>
+
+      </div>
+    </div>
+  </section>
+  <section class="blog">
+<div class="row" >
+  <div class="col-sm-12 col-sm-4 column" data-aos="fade-up">
+    <p>Food, Technology, <br> Politics, Lifestyle</p>
+    <p>Mark Weins <i class="fa fa-user" style="font-size:24px"></i> </p>
+    <p>12 Dec, 2019  <i class="fa fa-calendar" style="font-size:24px"></i></p>
+    <p>1.2M Views  <i class="fa fa-eye" style="font-size:24px"></i></p>
+    <p>08 Comments  <i class="fa fa-comment" style="font-size:24px"></i></p>
+  </div>
+  <div class="col-sm-12 col-sm-4" data-aos="fade-up">
+    <img id="ii" src="images/user1.jpg" alt=""> <br>
+    <h2 id="hh">Astronomy Binoculars A Great Alternative</h2> <br><br>
+    <p id="pp">MCSE boot camps have its supporters and its detractors. Some <br> people do not understand why you should have to spend money <br> on boot camp when you can get the MCSE study materials your <br> self at a fraction.</p>
+</div>
+
+ <div class="col-sm-12 col-sm-4 frst" data-aos="fade-up">
+     <img id="per" src="images/person_1.jpg" alt=""><br><br><br>
+     <a id="char" href="#">Charlie Baber</a>
+     <p id="sen">Senior blog writer</p><br>
+     <span class="ssp">
+     <a href="#" class="fa fa-facebook"></a>
+   <a href="#" class="fa fa-twitter"></a>
+   <a href="#" class="fa fa-linkedin"></a>
+   <a href="#" class="fa fa-instagram"></a>
+   </span>
+ </div>
+ </div>
+ <div class="row">
+   <div class="col-sm-12 col-sm-4 column" data-aos="fade-up">
+     <p>Food, Technology, <br> Politics, Lifestyle</p>
+     <p>Mark Weins <i class="fa fa-user" style="font-size:24px"></i> </p>
+     <p>12 Dec, 2019  <i class="fa fa-calendar" style="font-size:24px"></i></p>
+     <p>1.2M Views  <i class="fa fa-eye" style="font-size:24px"></i></p>
+     <p>08 Comments  <i class="fa fa-comment" style="font-size:24px"></i></p>
+   </div>
+   <div class="col-sm-12 col-sm-4" data-aos="fade-up">
+     <img id="ii" src="images/user2.jpg" alt=""> <br>
+     <h2 id="hh">The Basics Of Buying A Telescope</h2> <br><br>
+     <p id="pp">MCSE boot camps have its supporters and its detractors. Some <br> people do not understand why you should have to spend money <br> on boot camp when you can get the MCSE study materials your <br> self at a fraction.</p>
+ </div>
+
+  <div class="col-sm-12 col-sm-4 frst" data-aos="fade-up">
+    <img id="per" src="images/person_2.jpg" alt=""><br><br><br>
+    <a id="char" href="#">Dinel Victor</a>
+    <p id="sen">Senior blog writer</p><br>
+    <span class="ssp">
+    <a href="#" class="fa fa-facebook"></a>
+   <a href="#" class="fa fa-twitter"></a>
+   <a href="#" class="fa fa-linkedin"></a>
+   <a href="#" class="fa fa-instagram"></a>
+   </span>
+   </div>
+  </div>
+  <div class="row">
+    <div class="col-sm-12 col-sm-4 column" data-aos="fade-up">
+      <p>Food, Technology, <br> Politics, Lifestyle</p>
+      <p>Mark Weins <i class="fa fa-user" style="font-size:24px"></i> </p>
+      <p>12 Dec, 2019  <i class="fa fa-calendar" style="font-size:24px"></i></p>
+      <p>1.2M Views  <i class="fa fa-eye" style="font-size:24px"></i></p>
+      <p>08 Comments  <i class="fa fa-comment" style="font-size:24px"></i></p>
+    </div>
+    <div class="col-sm-12 col-sm-4" data-aos="fade-up">
+      <img id="ii" src="images/user3.jpg" alt=""> <br>
+      <h2 id="hh">The Glossary Of Telescopes</h2> <br><br>
+      <p id="pp">MCSE boot camps have its supporters and its detractors. Some <br> people do not understand why you should have to spend money <br> on boot camp when you can get the MCSE study materials your <br> self at a fraction.</p>
+  </div>
+
+   <div class="col-sm-12 col-sm-4 frst" data-aos="fade-up">
+     <img id="per" src="images/person_3.jpg" alt=""><br><br><br>
+     <a id="char" href="#">Discet Sanjs</a>
+     <p id="sen">Senior blog writer</p><br>
+     <span class="ssp">
+     <a href="#" class="fa fa-facebook"></a>
+    <a href="#" class="fa fa-twitter"></a>
+    <a href="#" class="fa fa-linkedin"></a>
+    <a href="#" class="fa fa-instagram"></a>
+    </span>
+  </div>
+   </div>
+   <div class="row">
+     <div class="col-sm-12 col-sm-4 column" data-aos="fade-up">
+       <p>Food, Technology, <br> Politics, Lifestyle</p>
+       <p>Mark Weins <i class="fa fa-user" style="font-size:24px"></i> </p>
+       <p>12 Dec, 2019  <i class="fa fa-calendar" style="font-size:24px"></i></p>
+       <p>1.2M Views  <i class="fa fa-eye" style="font-size:24px"></i></p>
+       <p>08 Comments  <i class="fa fa-comment" style="font-size:24px"></i></p>
+     </div>
+     <div class="col-sm-12 col-sm-4" data-aos="fade-up">
+       <img id="ii" src="images/user4.jpg" alt=""> <br>
+       <h2 id="hh">The Night Sky</h2> <br><br>
+       <p id="pp">MCSE boot camps have its supporters and its detractors. Some <br> people do not understand why you should have to spend money <br> on boot camp when you can get the MCSE study materials your <br> self at a fraction.</p>
+   </div>
+
+    <div class="col-sm-12 col-sm-4 frst" data-aos="fade-up">
+      <img id="per" src="images/person_4.jpg" alt=""><br><br><br>
+      <a id="char" href="#">Grosy Mose</a>
+      <p id="sen">Senior blog writer</p><br>
+      <span class="ssp">
+      <a href="#" class="fa fa-facebook"></a>
+     <a href="#" class="fa fa-twitter"></a>
+     <a href="#" class="fa fa-linkedin"></a>
+     <a href="#" class="fa fa-instagram"></a>
+     </span>
+       </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-12 col-sm-4 column" data-aos="fade-up">
+        <p>Food, Technology, <br> Politics, Lifestyle</p>
+        <p>Mark Weins <i class="fa fa-user" style="font-size:24px"></i> </p>
+        <p>12 Dec, 2019  <i class="fa fa-calendar" style="font-size:24px"></i></p>
+        <p>1.2M Views  <i class="fa fa-eye" style="font-size:24px"></i></p>
+        <p>08 Comments  <i class="fa fa-comment" style="font-size:24px"></i></p>
+      </div>
+      <div class="col-sm-12 col-sm-4" data-aos="fade-up">
+        <img id="ii" src="images/user5.jpg" alt=""> <br>
+        <h2 id="hh">Telescopes 101</h2> <br><br>
+        <p id="pp">MCSE boot camps have its supporters and its detractors. Some <br> people do not understand why you should have to spend money <br> on boot camp when you can get the MCSE study materials your <br> self at a fraction.</p>
+    </div>
+
+     <div class="col-sm-12 col-sm-6 frst" data-aos="fade-up">
+       <img id="per" src="images/person_1.jpg" alt=""><br><br><br>
+       <a id="char" href="#">Johns Dey  </a>
+       <p id="sen">Senior blog writer</p><br>
+       <span class="ssp">
+       <a href="#" class="fa fa-facebook"></a>
+      <a href="#" class="fa fa-twitter"></a>
+      <a href="#" class="fa fa-linkedin"></a>
+      <a href="#" class="fa fa-instagram"></a>
+      </span>
+         </div>
+     </div>
+  </section>
+  <section class="com">
+    <p id="head">05 Comments</p> <br>
+
+  <div class="row">
+    <div class="column" style="width:18%;" id="image" data-aos="fade-up">
+  <img  style="float:right; margin-bottom: 0px;width:30%; border-radius:50%;" src="images/c1.jpg" alt=""><br><br><br><br><br><br><br><br><br><br><br><br>
+  <img style="float:right; margin-top: px;width:30%; border-radius:50%;" src="images/c2.jpg" alt=""><br><br><br><br><br><br><br><br><br><br><br><br>
+  <img style="float:right;  margin-top: 0px;width:30%; border-radius:50%;" src="images/c3.jpg" alt=""><br><br><br><br><br><br><br><br><br><br><br><br>
+  <img style="float:right; margin-top: 0px;width:30%; border-radius:50%;" src="images/c4.jpg" alt=""><br><br><br><br><br><br><br>
+  <img style="float:right;  margin-top: 100px;width:30%; border-radius:50%;" src="images/c6.jpg" alt=""><br><br><br><br><br><br><br>
+
+
+    </div>
+    <div class="column" style="width:40%;" id="col" data-aos="fade-up">
+            <a id="em" style="padding-top:150px;" href="#">Emilly Blunt</a>
+      <p style="color:lightgray; padding-top:5px;">December 4, 2017 at 3:12 pm</p> <br>
+      <p id="nev">Never say goodbye till the end comes! <br><br>
+      <a id="lik" href="#">15.7k <i class="fa fa-thumbs-o-up" style="font-size:24px "> </i></a>
+      <a id="lik" href="#">3.8k <i class="fa fa-comment" style="font-size:24px"> </i></a>
+
+
+      </p><br><br><br>
+      <a id="em" style="padding-top:150px;" href="#">Elsie Cunningham</a>
+<p style="color:lightgray; padding-top:5px;">December 4, 2017 at 3:12 pm</p> <br>
+<p id="nev">Never say goodbye till the end comes! <br><br>
+<a id="lik" href="#">19.7k <i class="fa fa-thumbs-o-up" style="font-size:24px "> </i></a>
+<a id="lik" href="#">7.8k <i class="fa fa-comment" style="font-size:24px"> </i></a>
+
+
+</p><br><br><br>
+<a id="em" style="padding-top:150px;" href="#">Annie Stephens</a>
+<p style="color:lightgray; padding-top:5px;">December 4, 2017 at 3:12 pm</p> <br>
+<p id="nev">Never say goodbye till the end comes! <br><br>
+<a id="lik" href="#">25.7k <i class="fa fa-thumbs-o-up" style="font-size:24px "> </i></a>
+<a id="lik" href="#">9.8k <i class="fa fa-comment" style="font-size:24px"> </i></a>
+
+
+</p><br><br><br>
+<a id="em" style="padding-top:150px;" href="#">Maria Luna</a>
+<p style="color:lightgray; padding-top:5px;">December 4, 2017 at 3:12 pm</p> <br>
+<p id="nev">Never say goodbye till the end comes! <br><br>
+<a id="lik" href="#">9.7k <i class="fa fa-thumbs-o-up" style="font-size:24px "> </i></a>
+<a id="lik" href="#">1.8k <i class="fa fa-comment" style="font-size:24px"> </i></a>
+
+
+</p><br><br><br>
+<a id="em" style="padding-top:150px;" href="#">Ina Hayes</a>
+<p style="color:lightgray; padding-top:5px;">December 4, 2017 at 3:12 pm</p> <br>
+<p id="nev">Never say goodbye till the end comes! <br><br>
+<a id="lik" href="#">78.7k <i class="fa fa-thumbs-o-up" style="font-size:24px "> </i></a>
+<a id="lik" href="#">19.8k <i class="fa fa-comment" style="font-size:24px"> </i></a>
+
+
+</p><br><br><br>
+
+    </div>
+
+      <div class="column" style="width:10%;" data-aos="fade-up" ><br><br>
+        <a id="rep" href="#">Reply</a><br><br><br><br><br><br><br><br><br><br><br><br>
+        <a id="rep" href="#">Reply</a><br><br><br><br><br><br><br><br><br><br><br><br>
+        <a id="rep" href="#">Reply</a><br><br><br><br><br><br><br><br><br><br><br><br>
+        <a id="rep" href="#">Reply</a><br><br><br><br><br><br><br><br><br><br><br><br>
+        <a id="rep" href="#">Reply</a><br><br><br><br><br><br><br><br><br><br><br><br>
+
+
+    </div>
+
+    <div class="column" style="width:25%;" id="now" >
+      <div id="nxt" data-aos="fade-up">
+       <h1 id="pos">Post Catgories</h1><br><br>
+       <span class="span">
+       <a id="tec" href="#">Technology</a> <a id="num" href="#">45</a><br><br>
+       </span>
+       <span class="span">
+       <a id="tec" href="#" style="padding-right:156px;">Lifestyle</a> <a id="num" href="#">67</a><br><br>
+     </span>
+       <span class="span">
+       <a id="tec" href="#" style="padding-right:159px;">Fashion</a> <a id="num" href="#">19</a><br><br>
+     </span>
+       <span class="span">
+       <a id="tec" href="#" style="padding-right:205px;">Art</a> <a id="num" href="#">29</a><br><br>
+     </span>
+       <span class="span">
+       <a id="tec" href="#">Technology</a> <a id="num" href="#">36</a><br><br>
+     </span>
+       <span class="span">
+       <a id="tec" href="#" style="padding-right:184px;">Food</a> <a id="num" href="#">78</a><br><br>
+     </span>
+       <span class="span">
+       <a id="tec" href="#" style="padding-right:140px;">Adventure</a> <a id="num" href="#">57</a><br><br>
+     </span>
+       <span class="span"><br><br><br><br>
+       </div><br><br><br>
+<div class="nt" data-aos="fade-up">
+  <h1 id="post">NewsLetter</h1><br><br><br>
+  <p id="he">Here, I focus on a range of items <br> and features that we use in life <br> without giving them a second thought.
+
+</p><br><br>
+<form action="/action_page.php">
+      <input id="sr" type="text" placeholder="Enter Email" name="search">
+      <button id="su" type="submit">Subscribe</button><br><br><br><br><br>
+</div>
+
+    </div>
+  </div>
+  </section>
+  <section class="last">
+    <div class="row">
+      <div class="col-sm-12 col-sm-3">
+        <h1 style="margin-left:50px;">RokTreat</h1><br><br>
+        <p style="margin-left:50px;" id="dd">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+  <br><br><br>
+  <a id="abc" href="#" class="fa fa-instagram"></a>
+  <a id="abc" href="#" class="fa fa-linkedin"></a>
+  <a id="abc" href="#" class="fa fa-google"></a>
+      </div>
+      <div class="col-sm-12 col-sm-3">
+        <h1 style="margin-left:50px;">Useful Links</h1><br><br>
+        <a style="margin-left:50px;" href="#">Blogs</a><br><br>
+        <a style="margin-left:50px;" href="#">Rooms</a><br><br>
+        <a style="margin-left:50px;" href="#">Amenities</a><br><br>
+        <a style="margin-left:50px;" href="#">Gift Card</a><br><br>
+
+      </div>
+      <div  class="col-sm-12 col-sm-3">
+        <h1 style="margin-left:50px;">Privacy</h1><br><br>
+        <a style="margin-left:50px;" href="#">Career</a><br><br>
+        <a style="margin-left:50px;" href="about.html">About Us</a><br><br>
+        <a style="margin-left:50px;" href="contact.html">Contact Us</a><br><br>
+        <a style="margin-left:50px;" href="#">Services</a><br><br>
+
+      </div>
+      <div class="col-sm-12 col-sm-3">
+        <h1>Have a Question?</h1><br><br>
+        <a ><i class="fa fa-map-marker" style="font-size:36px"></i> 203 Fake St. Mountain View,<br> San Francisco, California, USA</a>
+      <br><br>  <a href="#"><i class="fa fa-phone" style="font-size:36px">  </i> +94275162</a>
+      <br><br>  <a href="#"><i class="fa fa-envelope" style="font-size:36px">  </i> kygeurcb@gmail.com</a>
+      </div>
+    </div>
+    <h4>Copyright ©2020 All rights reserved | This template is made with  by Colorlib</h4>
+  </section>
+
+    </div>
+  </section>
+</body>
+</html>
